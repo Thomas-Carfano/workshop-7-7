@@ -25,7 +25,7 @@ root.appendChild(h1);
 //Create empty array to print to screen after looping through array of objects
 let liNames = [];
 a.forEach((person) => {
-    liNames.push(`<li> ${person.name} </li>`);
+    liNames.push(`<li>Name: ${person.name} Age: ${person.age} Occupation: ${person.occupation} </li>`);
 });
 
 //print array to screen
